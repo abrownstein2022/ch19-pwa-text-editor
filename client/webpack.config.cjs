@@ -11,18 +11,28 @@ module.exports = () => {
     // mode: 'development',
     entry: {
       main: './src/js/index.js',
-      install: './src/js/install.js'
+      install: './src/js/install.js',
+      editor: './src/js/editor.js',
+      database: './src/js/database.js',
     },
     output: {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
+      
+      //! This was not created yet - required to inject the js into our bundled files
+      // Webpack plugin that generates our html file and injects our bundles. 
+      new HtmlWebpackPlugin({
+        template: './index.html',
+        title: 'J.A.T.E'
+      }),
+
+
       // we need to add the workbox plugin
       // to handle loading servbice worker and 
       // setting up file caching
       // and anything else pwa related
-
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,

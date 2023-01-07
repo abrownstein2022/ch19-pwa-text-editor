@@ -1,5 +1,6 @@
 import { openDB } from 'idb';
 
+
 const initdb = async () =>
 // We are creating a new database named 'contact' which will be using version 1 of the database.
   openDB('jate', 1, {
@@ -16,7 +17,7 @@ const initdb = async () =>
   });
 
 // Export a function we will use to POST to the database.
-export const postDb = async (config)  => {
+export const putDb = async (config)  => {
   console.log('Post to the database');
 
   // Create a connection to the database database and version we want to use.

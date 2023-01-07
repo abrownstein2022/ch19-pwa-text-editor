@@ -2,7 +2,7 @@
   "env": {
     "browser": true,
     "es6":true,
-    "es7": true
+    "node": true
   },
   "rules": {
     // Override our default settings just for this directory
@@ -12,5 +12,8 @@
     "import/prefer-default-export": "off",
     "no-underscore-dangle": "off",
     "no-restricted-globals": "off"
+  },
+  "parserOptions": {
+    "ecmaVersion": "latest"
   }
 }

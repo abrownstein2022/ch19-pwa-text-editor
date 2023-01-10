@@ -2,7 +2,7 @@
 ![license](https://img.shields.io/badge/license-MIT-black)
 
 Deployed Link on Heroku:
-https://ch11-express-notes-taker.herokuapp.com
+https://ch19-pwa-text-editor.herokuapp.com
 
 ## Table of Contents
 
@@ -95,19 +95,12 @@ $ npm run start:dev
 
 or
 1. Use the application locally as self-contained PWA by installing it before disconnecting from the internet.
-1. 
-
-
-**Please review to the screenshots below to view the application:**
-
-![example image get started page](./public/images/ch11-express-screen1-get-started-pg.jpg)
-![example image note entry screen](./public/images/ch11-express-screen2-note-entry-screen.jpg)
-![example image note entry screen save](./public/images/ch11-express-screen3-note-entry-screen-save.jpg)
-![example image see new note to left after save](./public/images/ch11-express-screen4-note-to-left-after-save.jpg)
-![example image see 2 notes to left after another save](./public/images/ch11-express-screen5-notes-to-left-after-save.jpg)
-![example image click on note to left to see rendered in note entry page](./public/images/ch11-express-screen6-click-on-note-to-left-to-see-on-right.jpg)
-![example image click on delete icon to delete note](./public/images/ch11-express-screen7-click-on-delete.jpg)
-![example image see note was deleted](./public/images/ch11-express-screen8-after-delete.jpg)
+1. Click the install me button in the browser to download the app.
+![example image install jate app locally](./client/src/images/ch19-install-jate-locally.png)
+1. CLick on the app icon to run it.
+![example image jate desktop icon after installation](./client/src/images/ch19-jate-icon-on-desktope.png)
+1. Use the app on your desktop the same way you would in the browser.
+![example image jate app opened and running locally](./client/src/images/ch19-jate-app-running-locally.png)
 
 ## Credits
 
@@ -158,6 +151,16 @@ Feattures for *future* development
 1. Click install button to download the web application as an icon on your desktop
 1. Necessary folder structure 
 1. Professional README
+
+**The screenshots below show the app features:**
+1. JATE browser functionality
+![example image jate browser functionality](./client/src/images/ch19-jate-browser-functionality.png)
+1. JATE manifest.json 
+![example image jate manifest.json](./client/src/images/ch19-jate-browser-manifest-dot-json.png)
+1. JATE service worker 
+![example image jate service worker](./client/src/images/ch19-jate-browser-service-worker.png)
+1. JATE indexed db storage
+![example image jate indexed db storage](./client/src/images/ch19-jate-indexed-db-storage.png)
 
 ## How-to-Contribute
 

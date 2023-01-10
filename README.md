@@ -2,7 +2,7 @@
 ![license](https://img.shields.io/badge/license-MIT-black)
 
 Deployed Link on Heroku:
-https://ch19-pwa-text-editor.herokuapp.com
+https://pwa-text-editor-jate-23.herokuapp.com
 
 ## Table of Contents
 
@@ -29,7 +29,6 @@ The entire application is deployed on Heroku.
 AS A developer
 I WANT to create notes or code snippets with or without an internet connection
 SO THAT I can reliably retrieve them for later use
-
 ```
 
 **Acceptance Criteria**
@@ -60,7 +59,6 @@ WHEN I register a service worker
 THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
-
 ```
 
 ## Installation
@@ -91,7 +89,7 @@ $ npm run start:dev
 
 ## Usage
 
-1. Open the app using Heroku https://ch19-pwa-text-editor.herokuapp.com
+1. Open the app using Heroku https://pwa-text-editor-jate-23.herokuapp.com
 
 or
 1. Use the application locally as self-contained PWA by installing it before disconnecting from the internet.

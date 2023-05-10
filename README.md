@@ -1,8 +1,8 @@
-# Progressive Web Applications (PWA) Challenge: Text Editor deployed on Heroku
+# Progressive Web Applications (PWA) Challenge: Text Editor
 ![license](https://img.shields.io/badge/license-MIT-black)
 
-Deployed Link on Heroku:
-https://pwa-text-editor-jate-23.herokuapp.com
+Deployed Link on Netlify:
+https://chic-babka-786ac0.netlify.app/
 
 ## Table of Contents
 
@@ -21,7 +21,7 @@ The task for this project was to build a text editor that runs in the browser. T
 
 The app uses methods for getting and storing data to an IndexedDB database, using a package called idb, which is a lightweight wrapper around the IndexedDB API.
 
-The entire application is deployed on Heroku.
+The entire application is deployed on Netlify.
 
 **User Story**
 
@@ -57,14 +57,14 @@ WHEN I load my web application
 THEN I should have a registered service worker using workbox
 WHEN I register a service worker
 THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
-WHEN I deploy to Heroku
+WHEN I deploy to Netlify
 THEN I should have proper build scripts for a webpack application
 ```
 
 ## Installation
 <!-- audience is other developers -->
 
-1. Clone this GitHub repo https://github.com/abrownstein2022/ch19-pwa-text-editor:
+1. Clone this GitHub repo https://github.com/abrownstein2022/pwa-text-editor:
 <!-- Check out the gh cli tool from github -->
 ```bash
 $ gh repo clone /abrownstein2022/ch19-pwa-text-editor
@@ -89,7 +89,7 @@ $ npm run start:dev
 
 ## Usage
 
-1. Open the app using Heroku https://pwa-text-editor-jate-23.herokuapp.com
+1. Open the app using Netlify https://chic-babka-786ac0.netlify.app/
 
 or
 1. Use the application locally as self-contained PWA by installing it before disconnecting from the internet.
@@ -142,7 +142,7 @@ _underline_
 Feattures for *future* development
  -->
 **The main features in this project are:**<br>
-1. Can be used via Heroku link or locally on your computer even when disconnected from the internet
+1. Can be used via Netlify link or locally on your computer even when disconnected from the internet
 1. Uses a package called idb, which is a lightweight wrapper around the IndexedDB API
 1. Uses webpack plugins and a registered service worker using workbox
 1. Generated an HTML file
@@ -176,5 +176,5 @@ I can be reached at alexis@drdatabase.com.
 
 This GitHub repo can be found at:
   
-https://github.com/abrownstein2022/ch19-pwa-text-editor
+https://github.com/abrownstein2022/pwa-text-editor
  

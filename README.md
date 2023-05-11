@@ -1,4 +1,4 @@
-# Progressive Web Applications (PWA) Challenge: Text Editor
+# Progressive Web Applications (PWA) Text Editor: J.A.T.E (Just Another Text Editor)
 ![license](https://img.shields.io/badge/license-MIT-black)
 
 Deployed Link on Netlify:
@@ -67,7 +67,7 @@ THEN I should have proper build scripts for a webpack application
 1. Clone this GitHub repo https://github.com/abrownstein2022/pwa-text-editor:
 <!-- Check out the gh cli tool from github -->
 ```bash
-$ gh repo clone /abrownstein2022/ch19-pwa-text-editor
+$ gh repo clone /abrownstein2022/pwa-text-editor
 ```
 2. From the terminal, install npm, build:
 

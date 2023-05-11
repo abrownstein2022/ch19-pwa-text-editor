@@ -1,4 +1,4 @@
-# Progressive Web Applications (PWA) Text Editor: J.A.T.E (Just Another Text Editor)
+# Progressive Web Applications (PWA): J.A.T.E (Just Another Text Editor)
 ![license](https://img.shields.io/badge/license-MIT-black)
 
 Deployed Link on Netlify:
